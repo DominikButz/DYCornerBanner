@@ -38,7 +38,7 @@ import DYCornerBanner
 
 See the following examples.
 
-![DYCornerBanner examples](CYCornerBanner/gitResources/cornerBannerExamples.png "Corner banner examples")
+![DYCornerBanner examples](./gitResources/cornerBannerExamples.png "Corner banner examples")
 
 ### Code example: Creating a DYCornerBanner from Interface Builder
 
