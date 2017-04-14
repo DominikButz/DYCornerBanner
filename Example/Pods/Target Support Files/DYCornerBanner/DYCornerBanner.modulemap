@@ -1,0 +1,6 @@
+framework module DYCornerBanner {
+  umbrella header "DYCornerBanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

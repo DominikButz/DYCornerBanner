@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DYCornerBanner'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DYCornerBanner.'
+  s.version          = '1.0.2'
+  s.summary          = 'Customisable corner banner label written in Swift 3.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+DYCornerBanner written in Swift 3 allows you to quickly create corner labels on top of any kind of rectangular view, e.g. UIImageView. The rotation angle of the corner label is determined by the width and height of the banner view.
                        DESC
 
   s.homepage         = 'https://github.com/dominikbutz/DYCornerBanner'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # s.screenshots     = 'https://github.com/DominikButz/DYCornerBanner/blob/master/gitResources/cornerBannerExamples.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dominikbutz' => 'dominikbutz@gmail.com' }
   s.source           = { :git => 'https://github.com/dominikbutz/DYCornerBanner.git', :tag => s.version.to_s }
