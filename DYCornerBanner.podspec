@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 DYCornerBanner written in Swift 3 allows you to quickly create corner labels on top of any kind of rectangular view, e.g. UIImageView. The rotation angle of the corner label is determined by the width and height of the banner view.
                        DESC
 
-  s.homepage         = 'https://github.com/DominikButz/CYCornerBanner'
+  s.homepage         = 'https://github.com/DominikButz/DYCornerBanner'
   # s.screenshots     = 'https://github.com/DominikButz/DYCornerBanner/blob/master/gitResources/cornerBannerExamples.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dominikbutz' => 'dominikbutz@gmail.com' }
-  s.source           = { :git => 'https://github.com/DominikButz/CYCornerBanner', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/DominikButz/DYCornerBanner.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
