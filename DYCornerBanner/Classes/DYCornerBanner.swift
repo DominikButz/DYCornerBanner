@@ -10,6 +10,7 @@ import UIKit
 
 public class DYCornerBanner: UIView {
 
+    
     var bannerLabel:UILabel = UILabel()
     
     var bannerPosition: BannerPosition = .bottomRight
@@ -17,6 +18,7 @@ public class DYCornerBanner: UIView {
     
     fileprivate let configuration = Configuration()
     
+    /// text font, can be overridden
     open var textFont: UIFont {
         get {
             return self.configuration.textFont
@@ -26,6 +28,7 @@ public class DYCornerBanner: UIView {
         }
     }
     
+        /// banner width,  can be overridden
     open var bannerWidth: CGFloat {
         get {
             return self.configuration.bannerWidth
@@ -38,7 +41,7 @@ public class DYCornerBanner: UIView {
     
 
     
-    // This method gets called if you create the view in the Interface Builder
+    /// This method gets called if you create the view in the Interface Builder
     required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
         print("init decoder")
@@ -47,7 +50,7 @@ public class DYCornerBanner: UIView {
   
     }
     
-    // This method gets called if you create the view in code
+    /// This method gets called if you create the view in code
   public  override init(frame: CGRect){
         super.init(frame: frame)
     print("init in code with frame")
@@ -147,15 +150,7 @@ public class DYCornerBanner: UIView {
     
 
     }
-    
-//    override public func layoutSubviews() {
-//             super.layoutSubviews()
-//        print("layout subviews called")
-//
-//        
-//   
-//
-//    }
+
     
 
 
