@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DYCornerBanner'
-  s.version          = '1.0.3'
+  s.version          = '1.1'
   s.summary          = 'Customisable corner banner label written in Swift 3.'
 
 # This description is used to generate tags and improve search results.

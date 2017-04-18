@@ -25,15 +25,15 @@ class ViewController: UIViewController {
         
         
         // with custom Font
-        self.cornerBannerBottomRight.textFont = UIFont(name: "AmericanTypewriter-Bold", size: 11.0)!
+   
         self.cornerBannerBottomRight.setup(text: "Top Cruise Tour!", textColor: UIColor.white, bannerColor: UIColor.red, position: .bottomRight)
-        
+        self.cornerBannerBottomRight.textFont = UIFont(name: "AmericanTypewriter-Bold", size: 11.0)!
         
         // with custom font and custom width
         self.cornerBannerTopLeft.textFont = UIFont(name: "ChalkboardSE-Bold" , size: 15.0)!
-        self.cornerBannerTopLeft.bannerWidth = 17.0
+ 
         self.cornerBannerTopLeft.setup(text: "Just Added!", textColor: UIColor.white, bannerColor: UIColor.grassGreen(), position: .topLeft)
-
+       self.cornerBannerTopLeft.bannerWidth = 25.0
        
         
         self.cornerBannerBottomLeft.setup(text: "Sunshine Guaranteed!", textColor: UIColor.black, bannerColor: UIColor.yellow, position: .bottomLeft)

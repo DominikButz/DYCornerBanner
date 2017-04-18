@@ -15,8 +15,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Features
 
 * set the corner position to bottom right, top right, top left or bottom left.
-* supports banners in any rotation angle and distance from the corner - the rotation angle and the distance from the corner are determined by the size and height-width proportion of the DYCornerBanner view's frame. 
-* override the default setting for the banner label width. 
+* supports banners in any rotation angle and distance from the corner - the rotation angle and the distance from the corner are determined by the size and height-width proportion of the DYCornerBanner view frame. 
+* override the default setting for the banner width. 
 * override the default setting for the banner text font.
 
 ## Installation
@@ -67,16 +67,30 @@ Alternatively, you can create a corner banner instance in code like so:
 
 
 ### Customising
-You can override the settings for bannerWidth and textFont as shown below. Make sure to set these properties **before calling setup**, otherwise the defaults will be set instead. 
+You can override the settings for bannerWidth and textFont as shown below.  
 
 ```Swift
 
-  self.cornerBannerTopLeft.textFont = UIFont(name: "ChalkboardSE-Bold" , size: 15.0)!
-  self.cornerBannerTopLeft.bannerWidth = 17.0
 self.cornerBannerTopLeft.setup(text: "Just Added!", textColor: UIColor.white, bannerColor: UIColor.grassGreen(), position: .topLeft)
 
-```
+self.cornerBannerTopLeft.textFont = UIFont(name: "ChalkboardSE-Bold" , size: 15.0)!
+self.cornerBannerTopLeft.bannerWidth = 17.0
 
+```
+## Change log
+
+# [Version 1.1](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.1)
+banner width (=label height) set explicitly now, not any more by creating a dummy label and using its height. text font and banner width can now be overridden after or before calling setup. 
+
+# [Version 1.0.3](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.0.3)
+extended documentation
+
+# [Version 1.0.2](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.0.2)
+Using cocoapods template to re-create the project.
+
+# [Version 1.0](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.0)
+Released on 2017-04-12.
+First release!
 
 ## Author
 
