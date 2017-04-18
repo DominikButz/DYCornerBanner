@@ -101,7 +101,7 @@ public class DYCornerBanner: UIView {
     public override func draw(_ rect: CGRect) {
         super.draw(rect)
         
-        
+        print("currrent version with draw rect")
         let labelFrame = CGRect(x: 0, y: 0, width: self.labelLength, height: self.bannerWidth)
         
         self.bannerLabel = UILabel(frame: labelFrame)
