@@ -28,6 +28,7 @@ class ViewController: UIViewController {
    
         self.cornerBannerBottomRight.setup(text: "Top Cruise Tour!", textColor: UIColor.white, bannerColor: UIColor.red, position: .bottomRight)
         self.cornerBannerBottomRight.textFont = UIFont(name: "AmericanTypewriter-Bold", size: 11.0)!
+    
         
         // with custom font and custom width
         self.cornerBannerTopLeft.textFont = UIFont(name: "ChalkboardSE-Bold" , size: 15.0)!

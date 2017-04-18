@@ -20,17 +20,16 @@ public class DYCornerBanner: UIView {
     var bannerPosition: BannerPosition = .bottomRight
    
     /// text of the banner label
-    var text:String!
+    public var text: String!
     
     /// color of the banner label text.
-    var textColor: UIColor!
+  var textColor: UIColor!
     
     
     /// background color of the banner label
     var bannerColor: UIColor!
     
 
-    
     fileprivate let configuration = Configuration()
     
     /// text font, can be overridden
@@ -73,8 +72,6 @@ public class DYCornerBanner: UIView {
 
     }
     
-
-    
     /// setup - Has to be called on corner banner instance after creating the instance either in code or in the storyboard
     ///
     /// - Parameters:
@@ -83,37 +80,27 @@ public class DYCornerBanner: UIView {
     ///   - bannerColor: fill colour of the banner label.
     ///   - position: .bottomRight, .topRight, .topLeft or .bottomLeft
     open func setup(text: String, textColor: UIColor, bannerColor: UIColor, position:BannerPosition ) {
-
+        
         // self
         self.backgroundColor = UIColor.clear
         self.isUserInteractionEnabled = false
         self.clipsToBounds = true
-
+        
         // setup instance variables
         self.text = text
         self.textColor = textColor
         self.bannerColor = bannerColor
         self.bannerPosition = position
         
-
-        // dummy label for size calculation
-//        let sizeAdjustmentLabel = UILabel(frame: CGRect(x: 0, y: 0, width: self.frame.width, height: self.frame.height / 4.0))
-//        sizeAdjustmentLabel.text = text
-//        sizeAdjustmentLabel.font = UIFont.systemFont(ofSize: self.bannerWidth)
-//        sizeAdjustmentLabel.sizeToFit()
-////
-        // banner size
-
-       self.labelLength =  sqrt( pow(self.frame.width, 2) +  pow(self.frame.height, 2))
-
-
-       
+        
+        self.labelLength =  sqrt( pow(self.frame.width, 2) +  pow(self.frame.height, 2))
+        
     }
     
     
-    
-    override public func layoutSubviews() {
-        super.layoutSubviews()
+    public override func draw(_ rect: CGRect) {
+        super.draw(rect)
+        
         
         let labelFrame = CGRect(x: 0, y: 0, width: self.labelLength, height: self.bannerWidth)
         
@@ -172,13 +159,12 @@ public class DYCornerBanner: UIView {
         let rotation = CGAffineTransform.init(rotationAngle: CGFloat(rotationAngleFactor * arcRotation))
         
         self.bannerLabel.transform = rotation
+        
+        
+        self.addSubview(self.bannerLabel)
 
-
-            self.addSubview(self.bannerLabel)
         
     }
-
-    
 
 
 }
