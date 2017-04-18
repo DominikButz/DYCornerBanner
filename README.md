@@ -79,6 +79,9 @@ self.cornerBannerTopLeft.bannerWidth = 17.0
 ```
 ## Change log
 
+# [Version 1.1.1](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.1.1)
+moving setup of label to draw(rect:) 
+
 # [Version 1.1](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.1)
 banner width (=label height) set explicitly now, not any more by creating a dummy label and using its height. text font and banner width can now be overridden after or before calling setup. 
 
