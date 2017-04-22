@@ -21,7 +21,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-DYCornerBanner is available through [CocoaPods](http://cocoapods.org). To install
+DYCornerBanner is available through [CocoaPods](https://cocoapods.org/?q=dycornerbanner). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -36,7 +36,7 @@ import DYCornerBanner
 
 ## Usage
 
-See the following examples.
+Check out the following examples.
 
 ![DYCornerBanner examples](./gitResources/cornerBannerExamples.png "Corner banner examples")
 
@@ -79,19 +79,19 @@ self.cornerBannerTopLeft.bannerWidth = 17.0
 ```
 ## Change log
 
-# [Version 1.1.1](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.1.1)
+#### [Version 1.1.1](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.1.1)
 moving setup of label to draw(rect:) 
 
-# [Version 1.1](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.1)
+#### [Version 1.1](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.1)
 banner width (=label height) set explicitly now, not any more by creating a dummy label and using its height. text font and banner width can now be overridden after or before calling setup. 
 
-# [Version 1.0.3](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.0.3)
+#### [Version 1.0.3](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.0.3)
 extended documentation
 
-# [Version 1.0.2](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.0.2)
+#### [Version 1.0.2](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.0.2)
 Using cocoapods template to re-create the project.
 
-# [Version 1.0](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.0)
+#### [Version 1.0](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.0)
 Released on 2017-04-12.
 First release!
 
