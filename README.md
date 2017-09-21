@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/DYCornerBanner.svg?style=flat)](http://cocoapods.org/pods/DYCornerBanner)
 
 
-DYCornerBanner written in **Swift 3** allows you to quickly create corner labels on top of any kind of rectangular view, e.g. UIImageView. The rotation angle of the corner label is determined by the width and height of the banner view.  
+DYCornerBanner written in allows you to quickly create corner labels on top of any kind of rectangular view, e.g. UIImageView. The rotation angle of the corner label is determined by the width and height of the banner view.  
 
 ## Example
 
@@ -78,6 +78,9 @@ self.cornerBannerTopLeft.bannerWidth = 17.0
 
 ```
 ## Change log
+
+#### [Version 1.1.2](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.1.2)
+Minor changes after conversion to Swift 4.0 (the code didn't require any conversion). 
 
 #### [Version 1.1.1](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.1.1)
 moving setup of label to draw(rect:) 

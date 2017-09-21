@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "DYCornerBanner.h"
 
 FOUNDATION_EXPORT double DYCornerBannerVersionNumber;
 FOUNDATION_EXPORT const unsigned char DYCornerBannerVersionString[];
