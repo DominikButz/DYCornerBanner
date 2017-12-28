@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/DYCornerBanner.svg?style=flat)](http://cocoapods.org/pods/DYCornerBanner)
 [![License](https://img.shields.io/cocoapods/l/DYCornerBanner.svg?style=flat)](http://cocoapods.org/pods/DYCornerBanner)
 [![Platform](https://img.shields.io/cocoapods/p/DYCornerBanner.svg?style=flat)](http://cocoapods.org/pods/DYCornerBanner)
-
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 DYCornerBanner written in allows you to quickly create corner labels on top of any kind of rectangular view, e.g. UIImageView. The rotation angle of the corner label is determined by the width and height of the banner view.  
 
@@ -78,6 +78,9 @@ self.cornerBannerTopLeft.bannerWidth = 17.0
 
 ```
 ## Change log
+
+#### [Version 1.1.3](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.1.3)
+Scheme change to shared to allow installation through carthage. 
 
 #### [Version 1.1.2](https://github.com/DominikButz/DYCornerBanner/releases/tag/1.1.2)
 Minor changes after conversion to Swift 4.0 (the code didn't require any conversion). 
